@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danish — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="sttylle.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<!-- BG ORBS -->
+<div class="bg-orbs" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">danish.web developer</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Kontak</a></li>
+  </ul>
+  <a href="#contact" class="nav-hire">Hire Me</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#skills" onclick="closeMobile()">Skills</a>
+  <a href="#projects" onclick="closeMobile()">Projects</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#contact" onclick="closeMobile()">Kontak</a>
+  <a href="#contact" onclick="closeMobile()" style="color:var(--accent)">Hire Me →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero section">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-tag">
+        <span class="dot"></span>
+        Available for projects
+      </div>
+      <h1 class="hero-name">
+        Halo, saya<br><span class="gradient">Danish</span> 👋
+      </h1>
+      <p class="hero-role">
+        <strong>Web Developer</strong> &amp; Creative Coder — Serang, Indonesia
+      </p>
+      <p class="hero-desc">
+Saya suka bikin hal-hal keren di browser — dari landing pages sampai full-stack apps.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">Lihat Projects →</a>
+        <a href="#contact" class="btn-ghost">contact</a>
+      </div>
+    </div>
+    <div class="hero-avatar">💻</div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar section">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-num">3+</div>
+      <div class="stat-label">Projects Selesai</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">8+</div>
+      <div class="stat-label">Skills Dikuasai</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">1</div>
+      <div class="stat-label">Olympiad Aktif</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">∞</div>
+      <div class="stat-label">Semangat Belajar</div>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<section class="skills section" id="skills">
+  <div class="container">
+    <div class="section-tag reveal">Keahlian</div>
+    <h2 class="section-title reveal delay-1">Tech Stack &amp; Skills</h2>
+    <p class="section-desc reveal delay-2">frontend, dari web security hingga content creation — ini tool kit saat ini.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card" style="--pct:85%">
+        <span class="skill-icon">🌐</span>
+        <div class="skill-name">HTML5</div>
+        <div class="skill-level">Advanced</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:80%">
+        <span class="skill-icon">🎨</span>
+        <div class="skill-name">CSS3</div>
+        <div class="skill-level">Advanced</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:70%">
+        <span class="skill-icon">⚡</span>
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:60%">
+        <span class="skill-icon">🐍</span>
+        <div class="skill-name">Python</div>
+        <div class="skill-level">Learning</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:65%">
+        <span class="skill-icon">🔒</span>
+        <div class="skill-name">Cybersecurity</div>
+        <div class="skill-level">Beginner–Mid</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:75%">
+        <span class="skill-icon">📱</span>
+        <div class="skill-name">Responsive Design</div>
+        <div class="skill-level">Advanced</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:70%">
+        <span class="skill-icon">🎬</span>
+        <div class="skill-name">Video Editing</div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:55%">
+        <span class="skill-icon">🛡️</span>
+        <div class="skill-name">Ethical Hacking</div>
+        <div class="skill-level">Learning</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:78%">
+        <span class="skill-icon">🖌️</span>
+        <div class="skill-name">UI/UX Design</div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:72%">
+        <span class="skill-icon">✂️</span>
+        <div class="skill-name">CapCut</div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:80%">
+        <span class="skill-icon">🌐</span>
+        <div class="skill-name">internet knowledge</div>
+        <div class="skill-level">Beginner</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-card" style="--pct:68%">
+        <span class="skill-icon">📊</span>
+        <div class="skill-name">Research</div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+            <div class="skill-card" style="--pct:68%">
+        <span class="skill-icon">🤖</span>
+        <div class="skill-name">AI promt engginering </div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar"><div class="skill-fill"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects section" id="projects">
+  <div class="container">
+    <div class="section-tag reveal">Portofolio</div>
+    <h2 class="section-title reveal delay-1">Projects Terbaru</h2>
+Beberapa karya yang pernah saya buat — dari class website sampai fine dining experience.
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 1: Lumière Restaurant -->
+      <div class="project-card reveal" onclick="openModal('lumiere')">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background: linear-gradient(135deg, #1a1410 0%, #2e2318 50%, #3d2e1a 100%);"></div>
+          <div class="project-thumb-label">🕯️ Lumière</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag accent">HTML</span>
+            <span class="tag accent2">CSS</span>
+            <span class="tag accent3">JavaScript</span>
+          </div>
+          <div class="project-name">Lumière Fine Dining</div>
+          <p class="project-desc">Website restoran fine dining premium dengan custom cursor, parallax hero, animated menu tabs, reservation form, dan full-mobile responsive. Aesthetic gelap elegan bergaya Prancis.</p>
+          <a href="#" class="project-link">
+            Lihat Project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- PROJECT 2: Class Website -->
+      <div class="project-card reveal delay-1" onclick="openModal('class')">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background: linear-gradient(135deg, #0a0c10 0%, #1a1230 50%, #0d0a20 100%);"></div>
+          <div class="project-thumb-label">🌌 Kelas 8H</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag accent">HTML</span>
+            <span class="tag accent2">CSS</span>
+            <span class="tag">Dark Theme</span>
+          </div>
+          <div class="project-name">Website Kelas 8H</div>
+          <p class="project-desc">Website kelas MTsN 1 Kota Serang untuk Kelas 8H Angkatan 48. Desain dark cosmic aesthetic yang kemudian direvisi ke Sunset Vibrant warm color scheme.</p>
+          <a href="#" class="project-link">
+            Lihat Project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- PROJECT 3: Hack The Box -->
+      <div class="project-card reveal delay-2">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background: linear-gradient(135deg, #001a00 0%, #003300 50%, #00200a 100%);"></div>
+          <div class="project-thumb-label">🟢 HTB Labs</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag accent">Nmap</span>
+            <span class="tag accent2">Linux</span>
+            <span class="tag accent3">Telnet</span>
+          </div>
+          <div class="project-name">Hack The Box Journey</div>
+          <p class="project-desc">Eksplorasi ethical hacking di platform HTB. Dimulai dari machine "Meow" — belajar Nmap scanning, Telnet exploitation, privilege escalation, dan basic pentesting methodology.</p>
+          <a href="https://app.hackthebox.com" target="_blank" rel="noopener" class="project-link" onclick="event.stopPropagation()">
+            HTB Profile
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- PROJECT 4: Content Clipping -->
+      <div class="project-card reveal delay-3">
+        <div class="project-thumb">
+          <div class="project-thumb-bg" style="background: linear-gradient(135deg, #1a0010 0%, #330020 50%, #200010 100%);"></div>
+          <div class="project-thumb-label">🎬 Content</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag accent">CapCut</span>
+            <span class="tag accent2">TikTok</span>
+            <span class="tag accent3">F1 / MotoGP</span>
+          </div>
+          <div class="project-name">Sports Content Clipping</div>
+          <p class="project-desc">Membuat konten highlight sports pendek (F1, MotoGP, football) untuk TikTok, YouTube Shorts, dan Instagram Reels menggunakan CapCut. Fokus pada motorsports dan sepak bola.</p>
+          <span class="project-link" style="cursor:default;opacity:.5">
+            In Progress...
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-emoji-grid">
+          <div class="about-emoji-item">
+            <span>🏎️</span>
+            <span>F1 Fan</span>
+          </div>
+          <div class="about-emoji-item">
+            <span>🏍️</span>
+            <span>MotoGP</span>
+          </div>
+          <div class="about-emoji-item">
+            <span>⚽</span>
+            <span>Football</span>
+          </div>
+          <div class="about-emoji-item">
+            <span>💻</span>
+            <span>Web Dev</span>
+          </div>
+          <div class="about-emoji-item">
+            <span>🔐</span>
+            <span>CyberSec</span>
+          </div>
+          <div class="about-emoji-item">
+            <span>🎬</span>
+            <span>Content</span>
+          </div>
+        </div>
+"Belajar itu bukan beban — itu cara saya ngexplore hal baru setiap hari."
+      </div>
+      <div class="about-text">
+        <div class="section-tag reveal">About Me</div>
+        <h2 class="section-title reveal delay-1">Siapa saya?</h2>
+Saya passionate banget di dunia teknologi — khususnya web development dan cybersecurity.
+Saya juga lagi prepare buat <strong>Olimpiade IPS</strong> yang mencakup Geografi, Sejarah, Sosiologi, dan Ekonomi.
+Di luar coding, saya suka banget sama motorsports — terutama <strong>F1, MotoGP, dan endurance racing</strong>. Saya juga aktif bikin konten highlights olahraga buat TikTok dan YouTube Shorts.
+        <div class="interest-pills reveal delay-3">
+          <span class="pill">🏎️ Formula 1</span>
+          <span class="pill">🏍️ MotoGP</span>
+          <span class="pill">⚽ Football</span>
+          <span class="pill">🔐 HTB</span>
+          <span class="pill">📚 IPS Olympiad</span>
+          <span class="pill">🌐 Web Dev</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="contact-inner reveal">
+      <div class="section-tag" style="justify-content:center;display:inline-flex">Kontak</div>
+      <h2 class="section-title" style="margin-top:12px">Let's <span style="background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent">Connect!</span></h2>
+      <p class="section-desc">Punya project keren yang mau dikerjain bareng? Atau sekadar mau ngobrol soal tech, motorsports, atau football? Hit me up! 🚀</p>
+      <div class="contact-links">
+        <a href="mailto:danish.atha.987@gmail.com" class="contact-link" target="_blank"><!--pake mailto kalau buat email-->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+        <a href="https://github.com/fixhunter321" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.instagram.com/danzz_hunterzz?igsh=b3JtMGhhdmQzXmtm" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          Instagram
+        </a>
+        <a href="https://tiktok.com/@danz_atha12_r1&8_t=ZS-95lzHYb4912" target="_blank" rel="noopener" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.74a4.85 4.85 0 0 1-1.01-.05z"/></svg>
+          TikTok
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-logo">danish.dev</span>
+  <p>© 2025 Danish di Serang, Indonesia.</p>
+  <p style="color:var(--accent);font-size:.78rem">Always learning, always building.</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" id="modalTitle">Project Preview</div>
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+/* ── NAV SCROLL ── */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+/* ── HAMBURGER ── */
+const hamburger = document.getElementById('hamburger');
+const mobileNav = document.getElementById('mobileNav');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('open');
+  mobileNav.classList.toggle('open');
+  document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+});
+function closeMobile() {
+  hamburger.classList.remove('open');
+  mobileNav.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* ── INTERSECTION OBSERVER ── */
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.reveal, .skill-card, .project-card, .about-visual, .about-text').forEach(el => obs.observe(el));
+
+/* ── STAGGER SKILL CARDS ── */
+document.querySelectorAll('.skill-card').forEach((card, i) => {
+  card.style.animationDelay = `${i * 0.07}s`;
+});
+document.querySelectorAll('.project-card').forEach((card, i) => {
+  card.style.animationDelay = `${i * 0.1}s`;
+});
+
+/* ── MODAL ── */
+const projectData = {
+  lumiere: {
+    title: '🕯️ Lumière Fine Dining',
+    src: 'restaurant.html'
+  },
+  class: {
+    title: '🌌 Website Kelas 8H',
+    src: null
+  }
+};
+
+function openModal(id) {
+  const p = projectData[id];
+  if (!p) return;
+  document.getElementById('modalTitle').textContent = p.title;
+
+  if (p.src) {
+    document.getElementById('modalBody').innerHTML = `<iframe src="${p.src}" title="${p.title}"></iframe>`;
+  } else {
+    document.getElementById('modalBody').innerHTML = `
+      <div style="padding:60px;text-align:center;color:var(--muted)">
+        <div style="font-size:4rem;margin-bottom:20px">🌌</div>
+        <p style="font-size:1rem">Website Kelas 8H sedang dalam pengembangan lebih lanjut.</p>
+        <p style="font-size:.85rem;margin-top:8px;opacity:.6">Coming soon...</p>
+      </div>`;
+  }
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModalDirect();
+}
+function closeModalDirect() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  setTimeout(() => { document.getElementById('modalBody').innerHTML = ''; }, 400);
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModalDirect(); });
+</script>
+</body>
+</html>
